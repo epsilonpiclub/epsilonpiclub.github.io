@@ -1,0 +1,18 @@
+﻿.footer-secondary-logo {
+    margin-top: 10px;
+}
+
+.footer-secondary-content ul {
+   font-weight: 600;
+   font-size: 18px;
+}
+
+.su-global-footer__menu {
+    font-weight: 400 !important;
+    font-size: 16px !important;
+}
+
+#global-footer__info {
+    margin-left: 155px;
+    margin-top: 10px;
+}

@@ -1,0 +1,35 @@
+﻿/* VideoJs*/
+
+.video-js {
+    width: 100% !important;
+    height: calc(100% - 48px) !important;
+}
+
+.video-js .vjs-big-play-button {
+    --radius: 2.5em;
+    top: calc(50% - var(--radius)/2) !important;
+    left: calc(50% - var(--radius)/2) !important;
+    width: var(--radius) !important;
+    height: var(--radius) !important;
+    line-height: var(--radius) !important;
+    border: none !important;
+    border-radius: 50% !important;
+}
+
+.vjs-poster {
+    display: inline-block;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+    background-color: #000000;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+}
