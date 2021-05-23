@@ -726,9 +726,6 @@ html.mm-nooverflowscrolling.mm-opened > .mm-panel.mm-current {
           background-clip: padding-box;
 }
 
-.table tbody tr {
-  /*border-top: 1px dotted #B6B1A9;*/
-}
 
 .table tbody tr td,
 .table tbody tr th {
